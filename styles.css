@@ -1,0 +1,62 @@
+body{
+    width: 100;
+   margin: 8px;
+   background-color: peachpuff;
+   font-size: 80%;
+   
+}
+header{
+
+    text-align: center;
+    display: block;
+    padding:1.875em 0; ;
+    
+
+}
+
+
+nav ul li {
+    margin: 8px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    }
+section h2{
+    margin: 8px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+li{
+    color: rgb(50, 177, 50);
+    padding: 2px;
+    font-weight: bold;
+    font-size: 12px;
+}
+p.des{
+    font-size: 20px;
+}
+p.detail{
+    font-size: 20px;
+} 
+figure {
+    margin:8px;
+    padding: 0;
+    text-align: center;
+    width: 80%;
+    }
+    
+    figcaption {
+    font-style: italic;
+    }
+    img {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    p.center{
+        text-align: center;
+        font-size: 15px;
+        
+    }
