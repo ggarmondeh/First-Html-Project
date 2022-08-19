@@ -8,14 +8,29 @@ body{
    padding-top: 20px;
    padding-bottom: 20px;
 }
+h1{
+    color: black;
+    text-shadow: 3px 3px 5px rgb(0,0,0,1) ;
+ }
 header{
 
     text-align: center;
     display: block;
     padding:1.875em 0; ;
+    background: rgb(36,0,25);
+    background: linear-gradient(
+        32deg,
+        rgba(115,107,231,1) 0%,
+        rgba(225,107,21,1) 91%
+     );
+    /* background: linear-gradient(32deg, rgba(36,0,25,1) 13%, rgba(149,82,81,1) 40%, rgba(166,255,0,1) 60%, rgba(121,9,14,1) 83%); */
     
 
 }
+h2{
+    color: black;
+    text-shadow: 3px 3px 5px rgb(0,0,0,1) ;
+ }
 
 
 nav ul li {
@@ -50,16 +65,32 @@ figure {
     width: 80%;
     }
     
-    figcaption {
+figcaption {
     font-style: italic;
     }
-    img {
+img {
         width: 100%;
         max-width: 100%;
         text-align: center;
     }
-    p.center{
+p.center{
         text-align: center;
         font-size: 20px;
         
     }
+    a:visited, a:link
+{
+    color:dodgerblue;
+}
+a:hover{
+    color: deeppink;
+}
+video{
+    width: 400px;
+    height: 400px;
+    
+}
+footer{
+    text-align: center;
+    font-weight: solid;
+}
